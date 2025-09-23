@@ -15,8 +15,8 @@ public abstract class TestDbConnection implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // Use your public Railway MySQL values here
         String url = "jdbc:mysql://mysql.railway.internal:3306/railway";
-        String username = "<your-username>";
-        String password = "<your-password>";
+        String username = "root";
+        String password = "xHNKUwUVdEWuuItZFPQJDgeuEumEobyq";
 
         try (Connection conn = DriverManager.getConnection(url, username, password)) {
             System.out.println("✅ DB Connection Successful!");
