@@ -22,7 +22,7 @@ public class WebConfig {
                         .allowedOrigins(
                             "http://127.0.0.1:5500",
                             "http://localhost:5500",
-                            "https://thunderous-druid-5bed49.netlify.app"
+                            "https://rayofhopeonline.netlify.app"
                         )
                         .allowedMethods("POST")
                         .allowedHeaders("*");
@@ -32,7 +32,7 @@ public class WebConfig {
                         .allowedOrigins(
                             "http://127.0.0.1:5500",
                             "http://localhost:5500",
-                            "https://thunderous-druid-5bed49.netlify.app"
+                            "https://rayofhopeonline.netlify.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
