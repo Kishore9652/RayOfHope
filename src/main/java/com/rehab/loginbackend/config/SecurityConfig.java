@@ -36,10 +36,11 @@ public class SecurityConfig {
 
         // You can use allowedOrigins or allowedOriginPatterns
         config.setAllowedOriginPatterns(List.of(
-            "http://localhost:5500",
-            "http://127.0.0.1:5500",
-            "https://rayofhope.netlify.app"
-        ));
+        	    "http://localhost:5500",
+        	    "http://127.0.0.1:5500",
+        	    "https://thunderous-druid-5bed49.netlify.app" // ✅ This is your actual Netlify domain
+        	));
+
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
