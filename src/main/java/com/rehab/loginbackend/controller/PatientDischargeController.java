@@ -48,11 +48,7 @@ public class PatientDischargeController {
         dischargeRepository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
-    @PostMapping("/api/discharge")
-    public ResponseEntity<String> saveDischarge(@RequestBody PatientDischarge discharge) {
-        dischargeRepository.save(discharge);
-        return ResponseEntity.ok("Discharge saved successfully");
-    }
+    
 
 
 }
