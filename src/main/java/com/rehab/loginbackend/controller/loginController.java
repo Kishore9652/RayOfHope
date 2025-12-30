@@ -11,7 +11,7 @@ public class loginController {
     private final String USERNAME = "rayofhope";
     private final String PASSWORD = "vikram1990";
 
-    // DTO class
+    
     public static class LoginRequest {
         public String username;
         public String password;
@@ -29,7 +29,7 @@ public class loginController {
 		}
 
         
-        // Add getters and setters if needed (or use Lombok)
+        
     }
 
     @PostMapping("/login")

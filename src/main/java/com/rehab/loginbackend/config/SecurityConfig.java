@@ -38,9 +38,10 @@ public class SecurityConfig {
         config.setAllowedOriginPatterns(List.of(
         	    "http://localhost:5500",
         	    "http://127.0.0.1:5500",
+        	    "http://127.0.0.1:5501",        // add this line
         	    "https://rayofhopeonline.netlify.app"
-        	    
         	));
+
 
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
